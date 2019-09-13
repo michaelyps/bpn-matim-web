@@ -15,7 +15,10 @@ import { Link } from "react-router-dom";
 
 import Footer from "./components/footer";
 
+import logokorpri from "../img/logokorpri.png";
 import logoBPN from "../img/logoBpn.png";
+
+import fotomichael from "../img/PNS/fotomichael.jpg";
 
 class Kepegawaian extends Component {
   constructor(props) {
@@ -50,7 +53,7 @@ class Kepegawaian extends Component {
                           <Card.Content extra>
                             <a>
                               <Icon name="user" />
-                              18 Orang
+                              17 Orang
                             </a>
                           </Card.Content>
                         </Card>{" "}
@@ -59,11 +62,7 @@ class Kepegawaian extends Component {
                   >
                     <Modal.Header>PEGAWAI NEGERI SIPIL</Modal.Header>
                     <Modal.Content image>
-                      <Image
-                        wrapped
-                        size="medium"
-                        src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
-                      />
+                      <Image wrapped size="medium" src={logokorpri} />
                       <Modal.Description>
                         <Header>List Pegawai</Header>
                         <List animated verticalAlign="middle">
@@ -248,10 +247,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotomichael} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/michael"}>
                                 Michael Yosavani Putra, A.Md
@@ -323,7 +319,9 @@ class Kepegawaian extends Component {
                               src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
                             />
                             <List.Content>
-                              <List.Header>Berri Siga</List.Header>
+                              <List.Header>
+                                Liberius Desalves Siga, A.Md
+                              </List.Header>
                             </List.Content>
                           </List.Item>
                           <List.Item>
@@ -372,7 +370,7 @@ class Kepegawaian extends Component {
                               src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
                             />
                             <List.Content>
-                              <List.Header>Ridwan Lay</List.Header>
+                              <List.Header>Ridwan Lay, S.Kom</List.Header>
                             </List.Content>
                           </List.Item>
                           <List.Item>
@@ -433,7 +431,7 @@ class Kepegawaian extends Component {
                           </Card.Content>
                           <Card.Content extra>
                             <a>
-                              <Icon name="user" />8 Orang
+                              <Icon name="user" />7 Orang
                             </a>
                           </Card.Content>
                         </Card>{" "}

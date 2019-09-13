@@ -5,7 +5,7 @@ import { Image, Grid, Container, Table, Header } from "semantic-ui-react";
 import "../../App.css";
 import Footer from "../components/footer";
 
-import fotoevan from "../../img/PNS/fotoevan.jpg";
+import fotomichael from "../../img/PNS/fotomichael.jpg";
 
 class Michael extends Component {
   constructor(props) {
@@ -23,7 +23,7 @@ class Michael extends Component {
             <div className="isi-biodata">
               <Grid>
                 <Grid.Column width={4}>
-                  <Image src={fotoevan} />
+                  <Image src={fotomichael} />
                 </Grid.Column>
                 <Grid.Column width={9}>
                   <Table basic="very" celled collapsing>

@@ -6,8 +6,11 @@ import "./App.css";
 
 import Beranda from "./Pages/beranda";
 import Kepegawaian from "./Pages/kepegawaian";
+import Galeri from "./Pages/galeri";
+import Layanan from "./Pages/layanan";
 
 import logoBpn from "./img/logoBpn.png";
+
 import HendrikusBate from "./Pages/PNS/hendrikusbate";
 import YusakPunuf from "./Pages/PNS/yusakpunuf";
 import GatotPanyol from "./Pages/PNS/gatotpanyol";
@@ -57,8 +60,19 @@ export default class App extends Component {
                   onClick={this.handleItemClick}
                 />
                 <Menu.Item
-                  name="friends"
-                  active={activeItem === "friends"}
+                  icon="photo"
+                  as={Link}
+                  to="/galeri"
+                  name="galeri"
+                  active={activeItem === "galeri"}
+                  onClick={this.handleItemClick}
+                />
+                <Menu.Item
+                  icon="book"
+                  as={Link}
+                  to="/layanan"
+                  name="layanan"
+                  active={activeItem === "layanan"}
                   onClick={this.handleItemClick}
                 />
                 <Menu.Menu position="right">
@@ -72,6 +86,8 @@ export default class App extends Component {
           </Container>
           <Route exact path="/" component={Beranda} />
           <Route path="/kepegawaian" component={Kepegawaian} />
+          <Route path="/galeri" component={Galeri} />
+          <Route path="/layanan" component={Layanan} />
           <Route path="/profile/yusakpunuf" component={YusakPunuf} />
           <Route path="/profile/gatotpanyol" component={GatotPanyol} />
           <Route path="/profile/hendrikusbate" component={HendrikusBate} />
