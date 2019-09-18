@@ -15,6 +15,9 @@ import gallery3 from "../img/gallery3.jpg";
 import gallery4 from "../img/gallery4.jpg";
 import gallery5 from "../img/gallery5.jpg";
 import gallery6 from "../img/gallery6.jpg";
+import gallery7 from "../img/gallery7.jpg";
+import gallery8 from "../img/gallery8.jpg";
+import gallery9 from "../img/gallery9.jpg";
 
 import Footer from "./components/footer";
 
@@ -55,6 +58,17 @@ class Galeri extends Component {
                   </Grid.Column>
                   <Grid.Column>
                     <Image wrapped size="medium" src={gallery6} />
+                  </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                  <Grid.Column>
+                    <Image wrapped size="medium" src={gallery7} />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Image wrapped size="medium" src={gallery8} />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Image wrapped size="medium" src={gallery9} />
                   </Grid.Column>
                 </Grid.Row>
               </Grid>

@@ -36,7 +36,7 @@ class Footer extends Component {
                     icon="linkify"
                     content={
                       <a href="https://kantahMatim.com/">
-                        https://kantahMatim.com/
+                        https://kantahmatim.com/
                       </a>
                     }
                   />
