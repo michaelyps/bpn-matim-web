@@ -46,12 +46,12 @@ class Kepegawaian extends Component {
                           <Image src={logoBPN} wrapped ui={false} />
                           <Card.Content>
                             <Card.Header>PNS</Card.Header>
-                            <Card.Meta>
+                            {/* <Card.Meta>
                               <span className="date">Joined in 2015</span>
                             </Card.Meta>
                             <Card.Description>
                               Matthew is a musician living in Nashville.
-                            </Card.Description>
+                            </Card.Description> */}
                           </Card.Content>
                           <Card.Content extra>
                             <a>
@@ -271,12 +271,12 @@ class Kepegawaian extends Component {
                           <Image src={logoBPN} wrapped ui={false} />
                           <Card.Content>
                             <Card.Header>PPNPN</Card.Header>
-                            <Card.Meta>
+                            {/* <Card.Meta>
                               <span className="date">Joined in 2015</span>
                             </Card.Meta>
                             <Card.Description>
                               Matthew is a musician living in Nashville.
-                            </Card.Description>
+                            </Card.Description> */}
                           </Card.Content>
                           <Card.Content extra>
                             <a>
@@ -416,12 +416,12 @@ class Kepegawaian extends Component {
                           <Image src={logoBPN} wrapped ui={false} />
                           <Card.Content>
                             <Card.Header>Kontrak/Sukarela</Card.Header>
-                            <Card.Meta>
+                            {/* <Card.Meta>
                               <span className="date">Joined in 2015</span>
                             </Card.Meta>
                             <Card.Description>
                               Matthew is a musician living in Nashville.
-                            </Card.Description>
+                            </Card.Description> */}
                           </Card.Content>
                           <Card.Content extra>
                             <a>
@@ -516,12 +516,12 @@ class Kepegawaian extends Component {
                       <Image src={logoBPN} wrapped ui={false} />
                       <Card.Content>
                         <Card.Header>ASK</Card.Header>
-                        <Card.Meta>
+                        {/* <Card.Meta>
                           <span className="date">Joined in 2015</span>
                         </Card.Meta>
                         <Card.Description>
                           Matthew is a musician living in Nashville.
-                        </Card.Description>
+                        </Card.Description> */}
                       </Card.Content>
                       <Card.Content extra>
                         <a>
