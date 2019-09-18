@@ -19,6 +19,9 @@ import logokorpri from "../img/logokorpri.png";
 import logoBPN from "../img/logoBpn.png";
 
 import fotomichael from "../img/PNS/fotomichael.jpg";
+import fotoadvent from "../img/PNS/fotoadvent.jpg";
+import fotosiska from "../img/PNS/fotosiska.jpg";
+import fotonanda from "../img/PNS/fotonanda.jpeg";
 
 class Kepegawaian extends Component {
   constructor(props) {
@@ -214,10 +217,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoadvent} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/advent"}>
                                 Advent Nugraheni, S.Si
@@ -225,10 +225,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotosiska} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/siska"}>
                                 Fransisca Yohanna Manus, S.Sos
@@ -236,10 +233,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotonanda} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/hernanda"}>
                                 Hernanda Damantara, SH
