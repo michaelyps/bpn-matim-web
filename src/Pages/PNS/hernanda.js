@@ -64,7 +64,9 @@ class Hernanda extends Component {
                             <Header.Content>Jabatan:</Header.Content>
                           </Header>
                         </Table.Cell>
-                        <Table.Cell>Analis Sengketa Pertanahan</Table.Cell>
+                        <Table.Cell>
+                          Calon Analis Sengketa Pertanahan
+                        </Table.Cell>
                       </Table.Row>
                     </Table.Body>
                   </Table>
