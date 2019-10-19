@@ -38,7 +38,7 @@ class Kepegawaian extends Component {
             </div>
             <div className="BPN-logo1">
               <Grid centered divided="vertically">
-                <Grid.Row columns={4}>
+                <Grid.Row columns={3}>
                   <Modal
                     trigger={
                       <GridColumn>
@@ -270,7 +270,7 @@ class Kepegawaian extends Component {
                         <Card link>
                           <Image src={logoBPN} wrapped ui={false} />
                           <Card.Content>
-                            <Card.Header>PPNPN</Card.Header>
+                            <Card.Header>PTT</Card.Header>
                             {/* <Card.Meta>
                               <span className="date">Joined in 2015</span>
                             </Card.Meta>
@@ -281,7 +281,7 @@ class Kepegawaian extends Component {
                           <Card.Content extra>
                             <a>
                               <Icon name="user" />
-                              11 Orang
+                              18 Orang
                             </a>
                           </Card.Content>
                         </Card>{" "}
@@ -403,45 +403,6 @@ class Kepegawaian extends Component {
                               <List.Header>Yemli Inoriti Punuf</List.Header>
                             </List.Content>
                           </List.Item>
-                        </List>
-                      </Modal.Description>
-                    </Modal.Content>
-                  </Modal>
-
-                  {/* CARD PPNPN ===============================================================*/}
-                  <Modal
-                    trigger={
-                      <GridColumn>
-                        <Card link>
-                          <Image src={logoBPN} wrapped ui={false} />
-                          <Card.Content>
-                            <Card.Header>Kontrak/Sukarela</Card.Header>
-                            {/* <Card.Meta>
-                              <span className="date">Joined in 2015</span>
-                            </Card.Meta>
-                            <Card.Description>
-                              Matthew is a musician living in Nashville.
-                            </Card.Description> */}
-                          </Card.Content>
-                          <Card.Content extra>
-                            <a>
-                              <Icon name="user" />7 Orang
-                            </a>
-                          </Card.Content>
-                        </Card>{" "}
-                      </GridColumn>
-                    }
-                  >
-                    <Modal.Header>Kontrak/Sukarela</Modal.Header>
-                    <Modal.Content image>
-                      <Image
-                        wrapped
-                        size="medium"
-                        src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
-                      />
-                      <Modal.Description>
-                        <Header>List Pegawai</Header>
-                        <List animated verticalAlign="middle">
                           <List.Item>
                             <Image
                               avatar
@@ -509,8 +470,7 @@ class Kepegawaian extends Component {
                       </Modal.Description>
                     </Modal.Content>
                   </Modal>
-
-                  {/* CARD Kontrak/Sukarela ===============================================================*/}
+                  {/* CARD PPNPN ===============================================================*/}
                   <GridColumn>
                     <Card link>
                       <Image src={logoBPN} wrapped ui={false} />

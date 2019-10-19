@@ -37,7 +37,7 @@ export default class Beranda extends Component {
           inverted="inverted"
           textAlign="center"
           style={{
-            minHeight: 600,
+            minHeight: 700,
             padding: "1em 0em"
           }}
           vertical="vertical"
@@ -184,7 +184,7 @@ export default class Beranda extends Component {
           inverted="inverted"
           textAlign="justify"
           style={{
-            minHeight: 600,
+            minHeight: 700,
             padding: "1em 0em"
           }}
           vertical="vertical"
