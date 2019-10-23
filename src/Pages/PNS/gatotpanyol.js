@@ -5,6 +5,8 @@ import { Image, Grid, Container, Table, Header } from "semantic-ui-react";
 import "../../App.css";
 import Footer from "../components/footer";
 
+import fotogatot from "../../img/PNS/fotogatot.png";
+
 class GatotPanyol extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +23,7 @@ class GatotPanyol extends Component {
             <div className="isi-biodata">
               <Grid>
                 <Grid.Column width={4}>
-                  <Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+                  <Image src={fotogatot} />
                 </Grid.Column>
                 <Grid.Column width={9}>
                   <Table basic="very" celled collapsing>

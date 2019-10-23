@@ -6,6 +6,8 @@ import Footer from "../components/footer";
 
 import "../../App.css";
 
+import fotoyusak from "../../img/PNS/fotoyusak.png";
+
 class YusakPunuf extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +24,7 @@ class YusakPunuf extends Component {
             <div className="isi-biodata">
               <Grid>
                 <Grid.Column width={4}>
-                  <Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+                  <Image src={fotoyusak} />
                 </Grid.Column>
                 <Grid.Column width={9}>
                   <Table basic="very" celled collapsing>

@@ -6,6 +6,8 @@ import "../../App.css";
 
 import Footer from "../components/footer";
 
+import fotostephanus from "../../img/PNS/fotostephanus.png";
+
 class StephanusKakut extends Component {
   constructor(props) {
     super(props);
@@ -22,7 +24,7 @@ class StephanusKakut extends Component {
             <div className="isi-biodata">
               <Grid>
                 <Grid.Column width={4}>
-                  <Image src="https://react.semantic-ui.com/images/wireframe/image.png" />
+                  <Image src={fotostephanus} />
                 </Grid.Column>
                 <Grid.Column width={9}>
                   <Table basic="very" celled collapsing>

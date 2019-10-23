@@ -22,6 +22,16 @@ import fotomichael from "../img/PNS/fotomichael.jpg";
 import fotoadvent from "../img/PNS/fotoadvent.jpg";
 import fotosiska from "../img/PNS/fotosiska.jpg";
 import fotonanda from "../img/PNS/fotonanda.jpeg";
+import fotoyoan from "../img/PNS/fotoyoan.png";
+import fotoyusak from "../img/PNS/fotoyusak.png";
+import fotogatot from "../img/PNS/fotogatot.png";
+import fotohendrikus from "../img/PNS/fotohendrikus.png";
+import fotostephanus from "../img/PNS/fotostephanus.png";
+import fotorahmat from "../img/PNS/fotorahmat.png";
+import fotoemilia from "../img/PNS/fotoemilia.png";
+import fotolusiana from "../img/PNS/fotolusiana.png";
+import fotobungsu from "../img/PNS/fotobungsu.png";
+import fotoandung from "../img/PNS/fotoandung.jpeg";
 
 class Kepegawaian extends Component {
   constructor(props) {
@@ -70,10 +80,7 @@ class Kepegawaian extends Component {
                         <Header>List Pegawai</Header>
                         <List animated verticalAlign="middle">
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoyusak} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/yusakpunuf"}>
                                 Yusak Punuf, SH
@@ -81,10 +88,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotogatot} />
                             <List.Content>
                               <List.Header
                                 as={Link}
@@ -95,10 +99,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotohendrikus} />
                             <List.Content>
                               <List.Header
                                 as={Link}
@@ -109,10 +110,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoyoan} />
                             <List.Content>
                               <List.Header
                                 as={Link}
@@ -123,10 +121,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotostephanus} />
                             <List.Content>
                               <List.Header
                                 as={Link}
@@ -137,10 +132,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotorahmat} />
                             <List.Content>
                               <List.Header
                                 as={Link}
@@ -151,10 +143,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoemilia} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/emiliajaun"}>
                                 Emilia Jaun, A.Md
@@ -173,10 +162,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotolusiana} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/lusiana"}>
                                 Lusiana M. K. Poso Teku, AP
@@ -184,10 +170,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotobungsu} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/bungsu"}>
                                 Bungsu A. A. Wajajo, S.Tr
@@ -249,10 +232,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoandung} />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/andung"}>
                                 Andung Listyarti, AP
@@ -288,7 +268,7 @@ class Kepegawaian extends Component {
                       </GridColumn>
                     }
                   >
-                    <Modal.Header>PPNPN</Modal.Header>
+                    <Modal.Header>PTT</Modal.Header>
                     <Modal.Content image>
                       <Image
                         wrapped
