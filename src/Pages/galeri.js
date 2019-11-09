@@ -6,7 +6,10 @@ import {
   Grid,
   Header,
   List,
-  Image
+  Image,
+  Modal,
+  Button,
+  Icon
 } from "semantic-ui-react";
 
 import gallery1 from "../img/gallery1.jpg";
@@ -28,6 +31,7 @@ import gallery15 from "../img/gallery15.jpg";
 import Footer from "./components/footer";
 
 import "../App.css";
+import { link } from "fs";
 
 class Galeri extends Component {
   constructor(props) {
@@ -46,57 +50,147 @@ class Galeri extends Component {
               <Grid columns={3}>
                 <Grid.Row>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery1} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery1} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery1} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery2} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery2} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery2} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery3} />
-                  </Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery4} />
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery5} />
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery6} />
-                  </Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery7} />
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery8} />
-                  </Grid.Column>
-                  <Grid.Column>
-                    <Image wrapped size="medium" src={gallery9} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery3} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery3} />
+                    </Modal>
                   </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery10} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery4} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery4} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery11} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery5} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery5} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery12} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery6} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery6} />
+                    </Modal>
                   </Grid.Column>
                 </Grid.Row>
                 <Grid.Row>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery13} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery7} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery7} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery14} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery8} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery8} />
+                    </Modal>
                   </Grid.Column>
                   <Grid.Column>
-                    <Image wrapped size="medium" src={gallery15} />
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery9} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery9} />
+                    </Modal>
+                  </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery10} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery10} />
+                    </Modal>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery11} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery11} />
+                    </Modal>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery12} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery12} />
+                    </Modal>
+                  </Grid.Column>
+                </Grid.Row>
+                <Grid.Row>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery13} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery13} />
+                    </Modal>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery14} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery14} />
+                    </Modal>
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Modal
+                      trigger={<Image wrapped size="medium" src={gallery15} />}
+                      basic
+                      size="small"
+                    >
+                      <Image src={gallery15} />
+                    </Modal>
                   </Grid.Column>
                 </Grid.Row>
               </Grid>

@@ -33,6 +33,8 @@ import fotolusiana from "../img/PNS/fotolusiana.png";
 import fotobungsu from "../img/PNS/fotobungsu.png";
 import fotoandung from "../img/PNS/fotoandung.jpeg";
 
+import fotoeto from "../img/PTT/alberto.jpg";
+
 class Kepegawaian extends Component {
   constructor(props) {
     super(props);
@@ -77,7 +79,7 @@ class Kepegawaian extends Component {
                     <Modal.Content image>
                       <Image wrapped size="medium" src={logokorpri} />
                       <Modal.Description>
-                        <Header>List Pegawai</Header>
+                        <Header>Daftar Pegawai</Header>
                         <List animated verticalAlign="middle">
                           <List.Item>
                             <Image avatar src={fotoyusak} />
@@ -153,7 +155,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/sumar"}>
@@ -180,7 +182,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/richard"}>
@@ -191,7 +193,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header as={Link} to={"/profile/bambang"}>
@@ -268,7 +270,7 @@ class Kepegawaian extends Component {
                       </GridColumn>
                     }
                   >
-                    <Modal.Header>PTT</Modal.Header>
+                    <Modal.Header>Pegawai Tidak Tetap</Modal.Header>
                     <Modal.Content image>
                       <Image
                         wrapped
@@ -276,21 +278,18 @@ class Kepegawaian extends Component {
                         src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
                       />
                       <Modal.Description>
-                        <Header>List Pegawai</Header>
+                        <Header>Daftar Pegawai</Header>
                         <List animated verticalAlign="middle">
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
-                            />
+                            <Image avatar src={fotoeto} />
                             <List.Content>
-                              <List.Header>Alberto Sera Soka</List.Header>
+                              <List.Header>Alberto Sera Soka, S.Ip</List.Header>
                             </List.Content>
                           </List.Item>
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>
@@ -301,7 +300,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Hendrik W. M. Lodo Hawu</List.Header>
@@ -332,7 +331,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Paulus F. H. Gadur</List.Header>
@@ -341,7 +340,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Ridwan Lay, S.Kom</List.Header>
@@ -350,7 +349,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Robert T. A. Susar</List.Header>
@@ -368,7 +367,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Sudirman Moksen</List.Header>
@@ -386,7 +385,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Archidius M. Ajang</List.Header>
@@ -395,7 +394,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Elvis Ryaldhy Narahida</List.Header>
@@ -431,7 +430,7 @@ class Kepegawaian extends Component {
                           <List.Item>
                             <Image
                               avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/helen.jpg"
+                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
                             />
                             <List.Content>
                               <List.Header>Fridolin E. Raga</List.Header>
@@ -452,23 +451,71 @@ class Kepegawaian extends Component {
                   </Modal>
                   {/* CARD PPNPN ===============================================================*/}
                   <GridColumn>
-                    <Card link>
-                      <Image src={logoBPN} wrapped ui={false} />
-                      <Card.Content>
-                        <Card.Header>ASK</Card.Header>
-                        {/* <Card.Meta>
-                          <span className="date">Joined in 2015</span>
-                        </Card.Meta>
-                        <Card.Description>
-                          Matthew is a musician living in Nashville.
-                        </Card.Description> */}
-                      </Card.Content>
-                      <Card.Content extra>
-                        <a>
-                          <Icon name="user" />4 Orang
-                        </a>
-                      </Card.Content>
-                    </Card>{" "}
+                    <Modal
+                      trigger={
+                        <Card link>
+                          <Image src={logoBPN} wrapped ui={false} />
+                          <Card.Content>
+                            <Card.Header>ASK</Card.Header>
+                          </Card.Content>
+                          <Card.Content extra>
+                            <a>
+                              <Icon name="user" />4 Orang
+                            </a>
+                          </Card.Content>
+                        </Card>
+                      }
+                    >
+                      <Modal.Header>Asisten Surveyor Kadastral</Modal.Header>
+                      <Modal.Content image>
+                        <Image
+                          wrapped
+                          size="medium"
+                          src="https://react.semantic-ui.com/images/avatar/large/rachel.png"
+                        />
+                        <Modal.Description>
+                          <Header>Daftar Pegawai</Header>
+                          <List animated verticalAlign="middle">
+                            <List.Item>
+                              <Image
+                                avatar
+                                src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
+                              />
+                              <List.Content>
+                                <List.Header>Kamistang</List.Header>
+                              </List.Content>
+                            </List.Item>
+                            <List.Item>
+                              <Image
+                                avatar
+                                src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
+                              />
+                              <List.Content>
+                                <List.Header>Ivan</List.Header>
+                              </List.Content>
+                            </List.Item>
+                            <List.Item>
+                              <Image
+                                avatar
+                                src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
+                              />
+                              <List.Content>
+                                <List.Header>Elisius Sewa</List.Header>
+                              </List.Content>
+                            </List.Item>
+                            <List.Item>
+                              <Image
+                                avatar
+                                src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
+                              />
+                              <List.Content>
+                                <List.Header>Ken</List.Header>
+                              </List.Content>
+                            </List.Item>
+                          </List>
+                        </Modal.Description>
+                      </Modal.Content>
+                    </Modal>
                   </GridColumn>
                   {/* CARD ASK ===============================================================*/}
                 </Grid.Row>
