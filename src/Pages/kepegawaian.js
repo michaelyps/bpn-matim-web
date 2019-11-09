@@ -34,6 +34,7 @@ import fotobungsu from "../img/PNS/fotobungsu.png";
 import fotoandung from "../img/PNS/fotoandung.jpeg";
 
 import fotoeto from "../img/PTT/alberto.jpg";
+import fotoberry from "../img/PTT/berry.jpg";
 
 class Kepegawaian extends Component {
   constructor(props) {
@@ -287,10 +288,7 @@ class Kepegawaian extends Component {
                             </List.Content>
                           </List.Item>
                           <List.Item>
-                            <Image
-                              avatar
-                              src="https://react.semantic-ui.com/images/avatar/small/christian.jpg"
-                            />
+                            <Image avatar src={fotoberry} />
                             <List.Content>
                               <List.Header>
                                 Liberius Desalves Siga, A.Md
